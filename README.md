@@ -19,4 +19,7 @@ Requirements:
 
 
 
-My name is not required to add on the credits of your game but appreciated.
+
+
+
+<em>My name is not required to add on the credits of your game but appreciated.</em>
