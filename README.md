@@ -16,3 +16,7 @@ Requirements:
 7. In the terminal, you should install the official plugin for the filesystem `@capacitor/filesytem`. Follow the instructions the official CapacitorJS documentation.
 8. Write `npx @pika/web --dest game_folder/js/web_modules` in order to copy the necessary modules to the game folder. <em>Note: You can change the path and even the name of the folder, web_modules, but then you also have to change the path of the file.js and core.js inside the native folder.</em>
 9. On index.html, add the path to core.js and filesystem.js that are inside `js/web_modules/@capacitor`.
+
+
+
+My name is not required to add on the credits of your game but appreciated.
