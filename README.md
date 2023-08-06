@@ -2,9 +2,10 @@
 Native storage using Capacitor JS for RPG Maker MV/MZ games.
 
 Requirements:
-* Node.js
-* CapacitorJS
-* RPG Maker MZ
+* [Node.JS](https://nodejs.org)
+* [Capacitor](https://capacitorjs.com/docs/getting-started)
+* [RPG Maker MZ](https://rpgmakerweb.com)
+* Pika web: `npm install @pika/web`
 
 1. On index.html add this just before the script with main.js: `<script type="module" src="js/native/file.js"></script>`
 2. Now do the same but for `js/native/utils.js`, `js/web_modules/@capacitor/core.js` and `js/web_modules/@capacitor/filesystem.js`.
