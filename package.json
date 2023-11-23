@@ -1,7 +1,7 @@
 {
-  "name": "native-storage-plugin-rmmz",
+  "name": "capacitor-filesystem-plugin-rmmz",
   "version": "1.0.0",
-  "description": "Add native storage for mobile platforms that are using Capacitor for RPG Maker MZ",
+  "description": "Add filesystem storage for mobile platforms that using Capacitor for RPG Maker MZ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

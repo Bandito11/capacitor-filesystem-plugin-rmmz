@@ -2,7 +2,7 @@ import {
   Filesystem,
   Directory,
   Encoding,
-} from '../libs/@capacitor/filesystem.js';
+} from '@capacitor/filesystem';
 
 let retries = 3;
 const directory = Directory.Documents;

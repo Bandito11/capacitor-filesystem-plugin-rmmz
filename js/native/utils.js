@@ -1,4 +1,4 @@
-import { Capacitor } from '../libs/@capacitor/core.js';
+import { Capacitor } from '@capacitor/core';
 
 window.getPlatform = () => {
   const isElectron = navigator.userAgent.toLowerCase().match('electron');
@@ -9,6 +9,6 @@ window.getPlatform = () => {
   }
 };
 
-window.isNativePlatform = () => {
+window.isMobilePlatform = () => {
   return Capacitor.isNativePlatform();
 };
