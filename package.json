@@ -1,0 +1,24 @@
+{
+  "name": "native-storage-plugin-rmmz",
+  "version": "1.0.0",
+  "description": "Add native storage for mobile platforms that are using Capacitor for RPG Maker MZ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bandito11/native-storage-plugin-rmmz.git#main"
+  },
+  "keywords": [
+    "rpg",
+    "maker",
+    "mz"
+  ],
+  "author": "Esteban Morales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bandito11/native-storage-plugin-rmmz/issues"
+  },
+  "homepage": "https://github.com/Bandito11/native-storage-plugin-rmmz/tree/main#readme"
+}
