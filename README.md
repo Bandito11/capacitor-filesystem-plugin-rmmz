@@ -3,6 +3,8 @@ Native storage using Capacitor JS for RPG Maker MV/MZ games.
 
 **My name is not required to add on the credits of your game but appreciated.**
 
+
+**These instructions are not valid anymore since the package @pika/web was discontinued and cannot be used anymore, will be working on how to implement this in the meantime.**
 Requirements:
 * [Node.JS](https://nodejs.org)
 * [Capacitor](https://capacitorjs.com/docs/getting-started)
