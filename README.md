@@ -15,7 +15,7 @@ Requirements:
 
 ## These instructions will be done in the folder where you deployed game
 
-1. Deploy your game, as `Web Browser/ Android/ iOS` to a new directory "you can use the default path".
+1. Deploy your game, as `Web Browser/ Android/ iOS` to a new directory.
 2. Go to [Capacitor docs](https://capacitorjs.com/docs/) and follow the instructions on the official docs on how to add **Capacitor** to a web app. **Ionic framework is NOT REQUIRED.**
 3. In the terminal, you should install the official plugin for the [@capacitor/filesystem](https://capacitorjs.com/docs/apis/filesystem).
 4. Write `node adding-scripts.js` in the terminal. This will add the `file.js` and `utils.js` to the deployed game `index.html` file.
