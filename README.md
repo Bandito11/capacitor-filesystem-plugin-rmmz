@@ -18,7 +18,7 @@ Requirements:
 1. Deploy your game, as `Web Browser/ Android/ iOS` to a new directory.
 2. Go to [Capacitor docs](https://capacitorjs.com/docs/) and follow the instructions on the official docs on how to add **Capacitor** to a web app. **Ionic framework is NOT REQUIRED.**
 3. In the terminal, you should install the official plugin for the [@capacitor/filesystem](https://capacitorjs.com/docs/apis/filesystem).
-4. Write `node adding-scripts.js` in the terminal. This will add the `file.js` and `utils.js` to the deployed game `index.html` file.
+4. Write `node adding-scripts.mjs` in the terminal. This will add the `file.js` and `utils.js` to the deployed game `index.html` file.
 5. Add Vite to your `package.json` and after doing so write `npx vite build game --outDir=../www --emptyOutDir --base=\" \"` ~~in order to copy the necessary modules to the game folder. <em>Note: You can change the path and even the name of the folder, web_modules, but then you also have to change the path of the file.js and core.js inside the native folder.</em>~~; this will build the game with the node_modules packages needed for the native implementation.
 6. ~~On index.html, add the path to core.js and filesystem.js that are inside `js/web_modules/@capacitor`.~~ In the terminal write `node copying-files.mjs`; this script will copy every directory inside your game to the **www** directory since `vite build` doesn't copy directories that were not added to the `index.html`.
 7. Now just follow the official Capacitor docs to build your game to the mobile platform of your choice.
