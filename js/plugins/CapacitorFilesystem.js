@@ -4,7 +4,10 @@
  * @plugindesc Will use native storage instead of current storage. Use as is.
  *
  * @help
- * This will only work if you are using CapacitorJS and installed the Capacitor Filesystem plugin.
+ * Implement filesystem for mobile platforms using CapacitorJS as the bridge.
+ * When the game runs in the browser or NW.js it will use the default
+ * implementation, but when running in an iPhone or Android phone it will
+ * use the local storage of the phone.
  *
  * License: MIT
  *
