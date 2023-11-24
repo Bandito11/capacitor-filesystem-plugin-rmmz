@@ -14,7 +14,8 @@
  * Requirements
  * Node.JS
  * CapacitorJS
- * vite 
+ * Vite 
+ * CheerioJS
  * 
  * Instructions: Plug and play
  */
