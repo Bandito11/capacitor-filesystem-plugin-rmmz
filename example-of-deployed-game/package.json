@@ -1,0 +1,24 @@
+{
+  "name": "my-game",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "npx vite build game --outDir=../www --emptyOutDir --base=\" \"",
+    "copy": "node copying-files.mjs",
+    "dom-nodes": "node adding-scripts.mjs",
+    "build:game": "npm run dom-nodes && npm run build && npm run copy && npx cap sync"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/filesystem": "^5.1.4",
+    "@capacitor/ios": "^5.5.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "vite": "^5.0.2"
+  }
+}

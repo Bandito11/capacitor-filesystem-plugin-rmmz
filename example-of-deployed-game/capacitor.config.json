@@ -1,0 +1,7 @@
+{
+  "appId": "com.my.game",
+  "appName": "My Game",
+  "server": {
+    "androidScheme": "https"
+  }
+}
